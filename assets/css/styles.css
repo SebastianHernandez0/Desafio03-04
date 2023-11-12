@@ -137,7 +137,7 @@ body {
     text-overflow: ellipsis;
 }
 
-.Arriendo__h2{
+.Arriendo__h2,.Venta__h2{
     margin-top: 1.5rem;
 }
 
@@ -157,4 +157,18 @@ body {
 }
 .text-success{
     color: green;
+}
+
+.cards__btn{
+
+    margin-top: 1rem;
+    padding: 0.5rem;
+    
+    
+}
+
+.main__btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
