@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #ededed;
+}
+
+.ul1__img {
+    width: 20rem;
+}
+
+.layout {
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "main";
+    grid-template-rows: 5rem 1fr;
+}
+
+.layout__nav {
+    grid-area: nav;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__ul2 {
+    display: flex;
+}
+
+.nav__ul2 li {
+    padding: 0 1rem;
+    line-height: 50px;
+
+}
+
+.ul2__btn {
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+
+}
+
+.layout__main {
+    grid-area: main;
+    width: 80%;
+    margin: 0px auto;
+
+
+}
+
+.propsVenta__cards,.propsArriendo__cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+
+.main__h1 {
+    text-align: center;
+    padding: 3rem;
+    font-weight: 100;
+    color: #3f3f3f;
+}
+
+.main__card {
+    border-radius: 1rem 1rem 0 0;
+    width: 20rem;
+    height: 545px;
+    background-color: #fffefe;
+}
+
+.main__card img {
+    width: 20rem;
+    height: 15rem;
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+.card__texto {
+    padding-left: 1rem;
+}
+
+.texto__p1{
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    padding-top: 10px;
+}
+.texto__nombre{
+    font-size: 15px;
+}
+
+.texto__desde{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.texto__h2{
+    font-weight: 400;
+}
+
+.texto__proyecto{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding: 0.2rem;
+    width: 50px;
+    font-size: 10px;
+    color: #112535;
+    background-color: #cbdff7;
+}
+
+.texto__carac{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.texto__clarito{
+    color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.texto__ubic{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Arriendo__h2{
+    margin-top: 1.5rem;
+}
+
+.texto__carac--arriendo{
+    margin-top: 20px;
+}
+.texto__clarito--arriendo{
+    margin-top: 10px;
+}
+
+.main__card--arriendo{
+    height: 510px;
+}
+
+.text-danger{
+    color: red;
+}
+.text-success{
+    color: green;
+}
